@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="RosarioEstradaJacome">
+  <meta name="description" content="Portafolio de desarrollo web de Rosario Estrada Jacome">
+  <meta name="keywords" content="HTML, CSS, JavaScript,Bootstrap React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Rosario Estrada | Desarrollo Web Front-End</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/iconoc.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/compuesto.png" width="100" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Evidencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto perfil.jpg" alt="Foto de Jane Doe">
+      <h1>Hola, soy Rosario Estrada Jácome</h1>
+      <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+      <!--Animación con JavaScript-->
+      <h2 class="text-dark mb-4" id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="https://i.makeagif.com/media/5-04-2016/vaWemJ.gif">
+      <img class="hero-inferior-imagen img-fluid"
+        src="https://blog.udlap.mx/wp-content/uploads/2023/02/ingenieria-quimica-udlap-3.jpg">
+      <img class="hero-inferior-imagen img-fluid" src="https://i.gifer.com/9N3S.gif">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Sobre mi</h2>
+      <p class="seccion-texto"> Soy una profesionista que se especializa en el área de Bioquímica de la carrera de
+        Ingeniería Química. Estudie en la Universidad Autónoma Metropolitana.
+        Soy Técnica en programación especialista en diseño de paginas web, desarrollo de aplicaciones web y software a
+        partir de lenguajes de prograamción como HTML, CSS, JavaScript,C#, C/C++, Matlab.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p> Tengo experiencia y conocimiento técnico en lenguajes de programación como HTML, CSS y JavaScript, así
+            como en frameworks y bibliotecas populares como React, Angular o Vue.js. También puede trabajar con
+            lenguajes back-end como PHP, Python, Ruby o Node.js para manejar la lógica del servidor y la interacción con
+            bases de datos. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Artículos</p>
+          <p>Redactar articulos sobre ingeriería de materiales y con lo relacionado con diseño, desarrollo y gestión de
+            procesos que optimicen la transformación de materias primas para la fabricación de nuevos productos.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Escribir y narrar </span>
+            <span class="badge text-bg-primary">Editar articulos</span>
+            <span class="badge text-bg-primary">Blogs</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>Estudiante en la carrera de Ingenieria química. Especializada en el área de Bioquímica. Soy técnica en programación. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg"
+      alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="https://images7.alphacoders.com/909/909467.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RosarioEstradaJacome/GoogleClone" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://clonegoogleversion.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-0d629217af553510cededa4bdedb224a-lq" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RosarioEstradaJacome/Astronomia" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://astronomy-universe.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="https://tecnosoluciones.com/wp-content/uploads/2023/04/que-productos-vender-en-una-tienda-virtual-o-comercio-electronico.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://on-line-shop.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/RosarioEstradaJacome" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Proyectos y evidencias</h2>
+    <h3 class="seccion-descripcion">Estos son algunas evidencias de mis proyectos y cursos...</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="d-block w-80" src="https://www.cienytec.com/picts/edu-sw-quimica-proceso-haber-newbyte-9x4.jpg" alt=" 1">
+            <p class="testimonio-texto">Evidencia de Laboratorio virtual de un reactor catalítico.
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">UAM AZC</p>
+              <p class="cargo">Creado por alumnado de Ingenieria Química</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="d-block w-80" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Titration.gif" alt="2">
+            <p class="testimonio-texto">Evidencias de realización de técnica de titulación.</p>
+            <div class="testimonio-info">
+              <p class="cliente">UAM AZC</p>
+              <p class="cargo">Creado por alumnado de Ingenieria Química</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="d-block w-100" src="https://thumbs.gfycat.com/ReliableQualifiedDingo-max-1mb.gif" alt=" 3">
+            <p class="testimonio-texto">Evidencia de una reacción química.</p>
+            <div class="testimonio-info">
+              <p class="cliente">UAM AZC</p>
+              <p class="cargo">Creado por alumnado de Ingenieria Química</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hello World!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:janedoe@micorreo.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">front-end programmer<br> Ing.Química.
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/RosarioEstradaJacome" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/rosario-estrada/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/rossa_e_j/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:ross@micorreo.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Rosario Estrada Jácome(2023) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
